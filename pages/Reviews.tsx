@@ -15,7 +15,7 @@ function Reviews({reviews}:ReviewPropsList){
     const reviewsToShow = reviews.length > 0?reviews.map(review => 
     <div className = "snap-center border-solid rounded border p-3 mr-3 min-w-[90%]">
         <div className = "mt-2 flex flex-row">
-            <img className = "mr-2 rounded-full max-w-[32px] max-h-[32px]" src = "./images/coaches/0/reviews/0/img.jpg"></img>
+            <img className = "mr-2 rounded-full max-w-[32px] max-h-[32px]" src = {"./images/coaches/0/reviews/"+review.id+"/img.jpg"}></img>
             <div className = "leading-none">
                 <div>{review.name}</div>
                 <div className = "text-gray-500">{review.date}</div>

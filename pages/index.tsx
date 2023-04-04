@@ -34,7 +34,7 @@ var coach1: CoachProps = {
 
 
 export default function Home() {
-  const [selectedCoach, setSelectedCoach] = useState(0);
+  
   return (
     <>
       <Head>
